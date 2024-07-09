@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <form id ="survey-form">
+    <h1 id=title>Survey Form</h1>
+    <p id="description">We'd like to know a few things about you.</p>
+      <label for="name" id="name-label">Name<label>
+      <input id="name" type="text" placeholder="Enter your name" required>
+      <label for="email" id="email-label">Email<label>
+      <input id="email" type="email" placeholder="Enter your email" required>
+      <label for="number" id="number-label">Age (optional)<label>
+      <input id="number" type="number" min=10 max=100 placeholder="Age">
+      <label for="experience" id="option-label">Which option best describes your current role?</label>
+      <select id="dropdown">
+        <option value="student">Student</option>
+        <option value="employed">Employed</option>
+        <option value="unclear">Prefer not to say</option>
+      </select>
+      <fieldset id="radio-feedback">
+        <legend>How much did you enjoy FCC?</legend>
+        
+        <input type="radio" name="experience" value="loved it">
+        <label for="loved it">Loved it</label>
+        <input type="radio" name="experience" value="mediocre"> 
+        <label for="mediocre">It was okay</label>
+        <input type="radio" name="experience" value="negative">
+        <label for="negative">Bad times</label>      
+      </fieldset>
+      <fieldset id="recommendation">
+        <legend>Would you recommend FCC to a friend?</legend>
+        <input type="checkbox" value="no">
+        <label for="no">Why, no!</label>
+        <input type="checkbox" value="yes">
+        <label for="no">Yeah!</label>
+      </fieldset>
+      <label for="textarea">Any other comments?</label>
+      <textarea id="textarea" placeholder="Enter additional comments..."></textarea>
+      <button type= "submit" id="submit">Submit
+      </button>
+
+  </form>
+  </body>
+</html>
