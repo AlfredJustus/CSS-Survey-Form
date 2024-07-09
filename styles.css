@@ -1,0 +1,69 @@
+body{
+  background-image:url(https://miro.medium.com/v2/resize:fit:1200/1*6Jp3vJWe7VFlFHZ9WhSJng.jpeg);
+  font-family: sans-serif;
+  padding: 20px;
+  color: white;
+}
+h1{
+  font-size: 50px;
+  margin-bottom: -5px;
+  margin-top: -10px;
+}
+
+p{
+  font-family: serif;
+  font-size: 16px;
+  font-style: italic
+}
+
+h1, p{
+  text-align: center;
+  background-color:
+}
+
+#survey-form{
+  width: 80%;
+  background: rgba(222, 184, 135, 80%);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 20px;
+}
+
+#name, #email, #number, #dropdown, #textarea, #radio-feedback, #recommendation{
+  margin: 5px auto 10px auto;
+  border-radius: 10px;
+  padding-left: 2%;
+  border-width: 0;
+  height: 9%;
+  display: block;
+  text-align: left;
+  width: 100%
+}
+
+#submit:hover{
+  color: white;
+  background-color: green;
+}
+
+#submit:active{
+  background-color: black;
+}
+
+
+#textarea{
+  font-family: sans-serif;
+}
+
+
+
+#submit{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 10%;
+  border-radius: 10px;
+  border-width: 0;
+}
